@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear:both;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.home{ 
+   height: 900px;
+   background-image: url(images/business-2.jpg);
+   background-size: 100% 100% ;
+}
+.home .a{
+    height: 100%;
+    background-color: rgba(0,0,0,0.5)
+}
+.home .nav {
+    height:40px;
+    padding: 20 60;
+    position: fixed;
+    width: 100%;
+}
+.home .nav ul li{
+    float:left;
+    list-style-type: none;
+    padding: 10px;
+    text-transform: uppercase;
+    
+    
+}
+.home .nav ul div{
+    float: right;
+}
+.home .nav img{ 
+    height:40px;
+    width:150;
+    opacity: .5;
+}
+.home .nav .logo{
+     float:left;
+}
+.home .nav .contact{
+    background-color: #4caf50;
+    color: #000;
+    border-radius: 5px;
+}
+.main {
+    text-align: center;
+    padding-top: 300px;
+}
+.main p{
+    font-size: 50px;
+    padding: 30 100;
+    margin: 0 40;
+    color: white;
+}
+.main .btn1 {
+    border: 1px ;
+    border-radius:5px; 
+    padding: 20 10;
+    width: 150px;
+    background-color: #4caf50;
+    text-transform: uppercase;
+    font-weight: bold;
+     
+}
+.main a,.home .nav a,.main h4{
+    color: white;
+    text-decoration: none;
+    
+} 
+.soult{
+    
+    height: 300px;
+}
+.soult .info{
+    width:30%;
+    float: left;
+    padding-top: 80px;
+    margin: 20px;
+    
+}
+.soult .info i{
+    float: left;
+    margin: -15 20 40 ;
+    font-size: 30px
+}
+.soult .info h1{
+    font-size: 60px;
+    font-weight: 100;
+}
+.soult .info p{
+    color: darkgrey;
+}
+
+.our-services{
+    height: 700px;
+    background-color: #f8f8f8;
+    padding: 100 40;
+    text-align: center
+}
+.our-services h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+.our-services .serv{
+    width:30%;
+    float: left;
+    margin: 70 20 50 20;
+    background-color: white;
+    text-align: left;
+}
+.our-services img{
+    width:100%;
+    height: 320px;
+    margin-bottom: 20px;
+    
+}
+.our-services a {
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.our-services span{
+    margin-left: 20px;
+}
+.our-services p{
+    margin:15 20;
+    line-height: 30px;
+    color: darkgrey;
+}
+.our-services button{
+    margin: 0 20 20;
+    color: darkgrey;
+    background-color: white;
+    border-style: none;
+    font-size: 18px;
+}
+.secret{
+    height: 700px;
+    background-color: white;
+}
+.secret img{
+    float: right;
+    width: 45%;
+    height: 600px;
+    margin:0 50px;
+}
+.secret .our-secret{
+    margin:100;
+    padding: 100 0;
+}
+.secret .our-secret h2{
+    font-weight: 500
+}
+.secret .our-secret h2,p,i{
+    padding: 15 0;
+}
+.secret .our-secret p{
+    line-height: 30px;
+    color: darkgrey;
+}
+.secret .our-secret> i{
+    color: darkgrey;
+}
+.secret .our-secret a{
+    border: 1px ;
+    border-radius:5px; 
+    padding: 20 10;
+    width: 150px;
+    background-color: #4caf50;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+} 
+.secret .our-secret .btn2{
+    margin: 30 0;
+border-style: none
+}
+
+.services{
+    height: 600px;
+}
+.services .other{
+    text-align: center;
+}
+.services .info div{
+    width: 30%;
+    float: left;
+    margin: 20px;
+    
+}
+.services .info{
+    padding: 20 40;
+    color: darkgray;
+}
+.services .other h2{
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: 300;
+}
+.services .other p{
+    font-size: 20px;
+    padding: 20 0;
+    color: darkgrey;
+}
+.think{
+    height: 600px;
+    background-color:#f8f8f8;
+    
+}
+.think i{
+    font-size: 50px;
+    text-align: center;
+    margin: 50 650;
+    text-align: center;
+    
+    
+}
+.think div{
+    width: 30%;
+    margin: 20px;
+    float: left;
+    color: darkgrey;
+}
+.think div p{
+    background-color: white;
+    padding: 30 50 30 30;
+    
+}
+.think div h4{
+    padding: 20 25 0;
+    font-weight: 200
+}
+.think div h5{
+    padding: 10 25;
+    font-weight: 150   
+}
+.number {
+    height: 350px;
+}
+.number div{
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    color: darkgrey;
+    
+}
+.number div h3,p{
+    font-weight: 100
+}
+.value{
+    height: 350px;
+    background-image: url(images/download.jpg);
+    background-size: 100%;
+    text-align: center;
+    padding: 200 350 0 
+}
+.value p{
+    font-size: 20px
+}
+.value .btn{
+    background-color: #4caf50;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border-style: none;
+    
+}
+.value a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+.logos{
+    height: 300px;
+    background-color: #ddd;
+}
+.logos img{
+    width: 10%;
+    margin: 60px;
+    padding-top: 40px
+}
+.feel{
+    height: 200px;
+    background-color: #4caf50;
+    padding: 100 100 0;
+}
+.feel .cont{
+    float: right;
+    background-color: white;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    
+}
+.feel .cont a{
+    color: 000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.about{
+    background-color: #1f2021;
+    color: white;
+    height: 200px;
+    padding: 50px;
+    
+}
+.about div{
+    width: 22%;
+    float: left;
+    margin: ;20px;
+        
+}
+.about .ab{
+    width: 24%;
+    margin-right: 100px;
+}
+.about div h1{
+    font-weight: 200;
+    font-size: 20px;
+    padding: 30 0;
+        
+}
+.about div li{
+    list-style-type: none;
+}
+.about div p,li,a{
+    color: #58606b;
+    font-size: 15px;
+    line-height: 35px;
+}
+.about div p{
+    margin: -15 0;
+    line-height: 26px;
+    float: left;
+}
+.about .detail a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.about .detail i{
+    margin-bottom: -20px;
+}
+.about .detail p i
+{
+    margin-right: 5px;
+}
+
+.foot{
+    height: 60px;
+    color: #58606b;
+    background-color: #1b1b1b;
+}
+.foot p{
+    float: left;
+    width: 50%;
+    padding-left: 70px;
+}
+.foot a{
+    font-size: 20px;
+    background-color: black;
+    border-radius: 50%;
+    
+}
+
+.foot i{
+    width: 30px;
+    text-align: center;    
+}
